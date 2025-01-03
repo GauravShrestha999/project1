@@ -1,0 +1,50 @@
+
+#main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#main-title b {
+    color: yellow;
+}
+
+
+#body-head{
+    color: yellow;
+    text-align: end;
+}
+
+
+#body-services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service{
+    width: 380px;
+    
+    
+}
+.service img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+
+.service-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
+.service-body p {
+    text-align: center;
+    color: grey;
+}

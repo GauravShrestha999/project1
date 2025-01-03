@@ -1,0 +1,64 @@
+/* all element selector : should add in all css */
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* id selector */
+#main-title{
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-body{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.cardtitle{
+    height: 60px;
+    font-size: 30px;
+    background-color: red;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius:top-left top-right bottom-right bottom-left; */
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    border-radius: 10px;
+    min-height: 300px;
+    /* border-bottom: width type color */
+    border-bottom: 4px solid red;
+    /* box-shadow: x-offset y-offset blur-radius spread-radius color ; */
+    box-shadow: 3px 3px 20px 10px grey;
+}
+.secondcard{
+    border-radius: 10px;
+    min-height: 300px;
+    /* border-bottom: width type color */
+    border-bottom: 4px solid yellow;
+    /* box-shadow: x-offset y-offset blur-radius spread-radius color ; */
+    box-shadow: 3px 3px 20px 10px grey;
+}
+.thirdcard{
+    border-radius: 10px;
+    min-height: 300px;
+    /* border-bottom: width type color */
+    border-bottom: 4px solid blue;
+    /* box-shadow: x-offset y-offset blur-radius spread-radius color ; */
+    box-shadow: 3px 3px 20px 10px grey;
+}
+.secondcard:nth-child(2) .cardtitle {
+    background-color: yellow;
+}
+.thirdcard:nth-child(3) .cardtitle{
+    background-color: blue;
+}
