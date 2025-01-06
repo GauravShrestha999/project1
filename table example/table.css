@@ -3,6 +3,10 @@ table{
     margin: 20px;
 }
 
+/*table,th,td{
+    height: 200px;
+    width: 100%;
+}*/
 
 table,th,td {
     border: 2px solid skyblue;
