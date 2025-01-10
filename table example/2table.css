@@ -1,0 +1,15 @@
+table{
+  border-spacing: 10px;  
+}
+tr{
+    height: 100px;
+}
+th,tr,td{
+    width: 20%;
+}
+
+th,td {
+    border-bottom: 3px solid gray;
+    padding: 30px;
+}
+
